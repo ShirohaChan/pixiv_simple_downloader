@@ -85,8 +85,3 @@ if function_mode == '5':
         match = re.search(pattern, cookie)
         user_id = match.group(1)
         download_recommend(user_id, headers, proxies)
-
-"""proxies = {
-    'http': 'socks5://127.0.0.1:10808',
-    'https': 'socks5://127.0.0.1:10808'
-}"""
